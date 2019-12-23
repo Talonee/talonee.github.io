@@ -2556,7 +2556,8 @@ input, select, textarea {
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					/* color: #953d75; */
+					color: rgba(62, 3, 129, 0.7);
 				}
 
 				.wrapper.style4 .icon.major:before {
@@ -3395,7 +3396,6 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-color: #222222;
-			/* background-image: linear-gradient(pink, black); */
 
 		}
 
@@ -3412,7 +3412,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			/* background-color: #3e4094; */
+			background-image: linear-gradient(-35deg, #222222 92%, rgba(255, 0, 242, 0.42));
 		}
 
 		.wrapper.style3 {
@@ -3424,7 +3425,9 @@ input, select, textarea {
 		}
 
 		.wrapper.style3-alt {
-			background-color: #323232;
+			/* background-color: #323232; */
+			background-image: linear-gradient(-35deg, #222222 90%, rgba(171, 8, 247, 0.42));
+
 		}
 
 		.wrapper.style4 {
@@ -3435,7 +3438,9 @@ input, select, textarea {
 		}
 
 		.wrapper.style4-alt {
-			background-color: #323232;
+			/* background-color: #323232; */
+			background-image: linear-gradient(-35deg, #222222 90%, rgba(247, 8, 147, 0.42));
+
 		}
 
 		.wrapper.fullscreen {
