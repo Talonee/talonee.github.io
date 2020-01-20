@@ -1,10 +1,5 @@
 @import url(fontawesome-all.min.css);
 
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -116,7 +111,6 @@ input, select, textarea {
 	/* MARKER FONT COLOR */
 	body, input, select, textarea {
 		color: #5d5d5a;
-		/* font-family: Arial, Helvetica, sans-serif; */
 		font-family: 'Open Sans', sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -196,22 +190,47 @@ input, select, textarea {
 		padding-bottom: 0.1em;
 	}
 	.end {
+		background: -moz-linear-gradient(#22eaaa, #00d1ff); 
 		background: -webkit-linear-gradient(#22eaaa, #00d1ff); 
+		background: -ms-linear-gradient(#22eaaa, #00d1ff); 
+		background: linear-gradient(#22eaaa, #00d1ff); 
+
+		background-clip: text;
+		text-fill-color: transparent;
+		-moz-background-clip: text;
+		-moz-text-fill-color: transparent;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+		-ms-background-clip: text;
+		-ms-text-fill-color: transparent;
+	}
+			
+	.internal {
+		background: -moz-linear-gradient(to right, #22eaaa, #00d1ff); 
+		background: -webkit-linear-gradient(to right, #22eaaa, #00d1ff); 
+		background: -ms-linear-gradient(to right, #22eaaa, #00d1ff); 
+		background: linear-gradient(to right, #22eaaa, #00d1ff); 
+
+		background-clip: text;
+		text-fill-color: transparent;
+		-moz-background-clip: text;
+		-moz-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		-ms-background-clip: text;
+		-ms-text-fill-color: transparent;
 	}
 
 		h1.major {
-			margin: 0 0 1.3em 0;
+			margin: 0 0 0.5em 0;
 			position: relative;
-			padding-bottom: 0.35em;
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right,  #22eaaa, #00d1ff);
+				background-image: -webkit-linear-gradient(to right,  #22eaaa, #00d1ff);
+				background-image: -ms-linear-gradient(to right,  #22eaaa, #00d1ff);
+				background-image: linear-gradient(to right,  #22eaaa, #00d1ff);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -240,8 +259,6 @@ input, select, textarea {
 
 	h4 {
 		font-size: 1em;
-		
-		/* text-align: justify; */
 		width: 55%; /* nice */
 		margin: auto;
 		font-weight: 400;
@@ -259,7 +276,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 2em;
+			font-size: 2.2em;
 		}
 
 		h2 {
@@ -271,7 +288,8 @@ input, select, textarea {
 		}
 
 		h4 {
-			font-size: 0.8em;
+			font-size: 0.9em;
+			width: 85%;
 		}
 
 		h5 {
@@ -2235,7 +2253,7 @@ input, select, textarea {
 			}
 
 				.features section {
-					border-top-width: 1px !important;
+					border-top-width: 2px !important;
 					border-left-width: 0 !important;
 					width: 100%;
 				}
@@ -2589,19 +2607,19 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #222222;
+					color: #ef5ea7;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #222222;
+					color: #ef5ea7;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #191919;
+					color: #ef5ea7;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #191919;
+					color: #ef5ea7;
 				}
 
 				.wrapper.style3 .icon.major:before {
@@ -3449,65 +3467,61 @@ input, select, textarea {
 
 		/* MARKER DIV SECTIONS*/
 		.wrapper.alt {
-			background-color: red;
-			/* background-color: #261c3e; */
+			/* background-color: red; */
+			background-color: #261c3e;
 		}
 
 		.wrapper.style1 {
-			background-image: -moz-linear-gradient(to right, #ef5ea7, #fff6c8);
-			background-image: -webkit-linear-gradient(to right, #ef5ea7, #fff6c8);
-			background-image: -ms-linear-gradient(to right, #ef5ea7, #fff6c8);
-			/* background-image: linear-gradient(to right, #df6888, #ffaf92); */
+			background-color: white;
+		}
+
+		.wrapper.style1-alt {
+			background-color: white;
+		}
+
+		.wrapper.style2 {
+			background-image: -moz-linear-gradient(#fff6c8, #22eaaa);
+			background-image: -webkit-linear-gradient(#fff6c8, #22eaaa);
+			background-image: -ms-linear-gradient(#fff6c8, #22eaaa);
+			background-image: linear-gradient(#fff6c8, #22eaaa);
 			-moz-transition: max-width 0.2s ease;
 			-webkit-transition: max-width 0.2s ease;
 			-ms-transition: max-width 0.2s ease;
 			transition: max-width 0.2s ease;
-			background-color: white;
-			
-
-		}
-
-		.wrapper.style1-alt {
-			/* background-color: #222222; */
-			background-color: #222222;
-		}
-
-		.wrapper.style2 {
-			/* background-color: #222222; */
-			/* background-image: linear-gradient(to top left, #222222 90%, #53d4e6); */
-			/* background-image: linear-gradient(-35deg, #222222 90%, #53d4e6); */
-			background-image: linear-gradient(#fff6c8, #22eaaa);
-
 		}
 
 		.wrapper.style2-alt {
-			/* background-color: #3e4094; */
-			background-image: linear-gradient(-35deg, #222222 92%, rgba(255, 0, 242, 0.42));
+			background-color: white;
 		}
 
 		.wrapper.style3 {
-			/* background-color: #323232; */
-			/* background-image: linear-gradient(black, black); */
-			/* background-image: linear-gradient(-35deg, #222222 90%, rgba(123,216,143,0.3)); */
+			background-image: -moz-linear-gradient(#f086bb, #fff6c8);
+			background-image: -webkit-linear-gradient(#f086bb, #fff6c8);
+			background-image: -ms-linear-gradient(#f086bb, #fff6c8);
 			background-image: linear-gradient(#f086bb, #fff6c8);
-
+			-moz-transition: max-width 0.2s ease;
+			-webkit-transition: max-width 0.2s ease;
+			-ms-transition: max-width 0.2s ease;
+			transition: max-width 0.2s ease;
 		}
 
 		.wrapper.style3-alt {
-			/* background-color: #323232; */
-			background-image: linear-gradient(-35deg, #222222 90%, rgba(171, 8, 247, 0.42));
-
+			background-color: white;
 		}
 
 		.wrapper.style4 {
-			/* background-color: #323232; */
-			/* background-image: linear-gradient(black, black); */
+			background-image: -moz-linear-gradient(#22eaaa, #00d1ff);
+			background-image: -webkit-linear-gradient(#22eaaa, #00d1ff);
+			background-image: -ms-linear-gradient(#22eaaa, #00d1ff);
 			background-image: linear-gradient(#22eaaa, #00d1ff);
-
+			-moz-transition: max-width 0.2s ease;
+			-webkit-transition: max-width 0.2s ease;
+			-ms-transition: max-width 0.2s ease;
+			transition: max-width 0.2s ease;
 		}
 
 		.wrapper.style4-alt {
-			background-image: linear-gradient(-35deg, #222222 90%, rgba(247, 8, 147, 0.42));
+			background-color: white;
 		}
 
 		.wrapper.fullscreen {
@@ -3611,7 +3625,7 @@ input, select, textarea {
 		}
 
 /* Header */
-
+	/* MARKER INTERNAL 2 */
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3620,11 +3634,21 @@ input, select, textarea {
 		background-color: #222222;
 		cursor: default;
 		padding: 1.75em 2em;
+
+		
+		background-image: -moz-linear-gradient(to right, #22eaaa, #00d1ff);
+		background-image: -webkit-linear-gradient(to right,#22eaaa, #00d1ff);
+		background-image: -ms-linear-gradient(to right, #22eaaa, #00d1ff);
+		background-image: linear-gradient(to right, #22eaaa, #00d1ff);
+		-moz-transition: max-width 0.2s ease;
+		-webkit-transition: max-width 0.2s ease;
+		-ms-transition: max-width 0.2s ease;
+		transition: max-width 0.2s ease;
 	}
 
 		#header > .title {
 			border: 0;
-			color: #333333;
+			color: white;
 			display: block;
 			font-size: 1.25em;
 			font-weight: bold;
@@ -3656,9 +3680,9 @@ input, select, textarea {
 
 					#header > nav > ul > li a {
 						border: 0;
-						color: rgba(255, 255, 255, 0.35);
+						color: rgba(255, 255, 255, 0.75);
 						display: inline-block;
-						font-size: 0.6em;
+						font-size: 0.7em;
 						font-weight: bold;
 						letter-spacing: 0.25em;
 						text-transform: uppercase;
@@ -3669,7 +3693,7 @@ input, select, textarea {
 						}
 
 						#header > nav > ul > li a.active {
-							color: #333333;
+							color: white;
 						}
 
 		@media screen and (max-width: 736px) {
@@ -3783,20 +3807,13 @@ input, select, textarea {
 		width: 18em;
 		z-index: 10000;
 
-		background-image: -moz-linear-gradient(to right, #ef5ea7, #fff6c8);
-		background-image: -webkit-linear-gradient(to right, #ef5ea7, #fff6c8);
-		background-image: -ms-linear-gradient(to right, #ef5ea7, #fff6c8);
-		/* background-image: linear-gradient(to right, #f0737a, #fff6c8 , white 50%); */
-		/* background-image: linear-gradient(to right,#050747, #00d9da); */
+		background-image: -moz-linear-gradient(60deg, #ef5ea7,  #00d9da);
+		background-image: -webkit-linear-gradient(60deg, #ef5ea7,  #00d9da);
+		background-image: -ms-linear-gradient(60deg, #ef5ea7,  #00d9da);
 		-moz-transition: max-width 0.2s ease;
 		-webkit-transition: max-width 0.2s ease;
 		-ms-transition: max-width 0.2s ease;
 		transition: max-width 0.2s ease;
-		/* background-image: -webkit-linear-gradient(#c0f0ba, #00d9da);
-		background-image: -webkit-linear-gradient(#007bbd, #00d9da); */
-		background-image: -webkit-linear-gradient(60deg, #ef5ea7,  #00d9da);
-
-		/* background-color: #00478f; */
 		/* max-width: 0; */
 	}
 
@@ -4029,9 +4046,9 @@ input, select, textarea {
 			}
 			/* MARKER SIDEBAR GRADIENT */
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right,  lime, yellow);
+				background-image: -webkit-linear-gradient(to right,  lime, yellow);
+				background-image: -ms-linear-gradient(to right,  lime, yellow);
 				background-image: linear-gradient(to right,  lime, yellow);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
@@ -4041,7 +4058,6 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:hover {
-				/* color: rgba(255, 255, 255, 0.55); */
 				color: rgba(255, 255, 255, 1);
 			}
 			/* MARKER SIDEBAR TEXT */
@@ -4122,7 +4138,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: white;
 						}
 
 		}
@@ -4139,7 +4155,7 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		/* background-image: url("images/intro.svg"); */
+		background-image: url("images/intro.svg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;		
@@ -4174,9 +4190,9 @@ input, select, textarea {
 			}
 
 		}
-
+/* MARKER FOR INTERNAL LAYOUT */
 #wrapper {
-	background-color: #191919;
+	background-color: white;
 }
 
 	/* Styles the thumbnail */
