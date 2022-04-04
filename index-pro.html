@@ -1,0 +1,304 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Future Imperfect by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index-mod.html">Talon Pollard</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="index-egr.html">Engineer</a></li>
+								<li><a href="index-pro.html">Code</a></li>
+								<li><a href="index-art.html">Design</a></li>
+								<li><a href="index-mod.html">3D Model</a></li>
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="#">
+											<h3>Engineering</h3>
+											<p>Feugiat tempus veroeros dolor</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Art</h3>
+											<p>Sed vitae justo condimentum</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>3D Modeling</h3>
+											<p>Phasellus sed ultricies mi congue</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Programming</h3>
+<!--											<p>Porta lectus amet ultricies</p>-->
+										</a>
+									</li>
+								</ul>
+							</section>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post" id="remuse">
+								<header>
+									<div class="title">
+										<h2><a>Re-Muse</a></h2>
+										<p>Personal Project</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2020-08-24">August 2020</time>
+										<a class="author"><span class="name">Code</span><img src="images/pro.png" alt="" /></a>
+									</div>
+								</header>
+                                <a class="image featured"><img src="images/collage.png" alt="" /></a>
+                                <p>Before I could afford subscription services for music, I would always download MP3  files from YouTube using a third-party service. While the files served their purpose and I could listen to any song I wanted (including unregistered & foreign songs), my library was filled with "Unknown Artists," empty lyrics, unstructured titles, and without cover pictures. So, by the urge of wanting an aesthetically pleasing playlist on my device, I developed Re-Muse as a desktop application with full GUI support. The process of making the app was truly the <i><b>highlight</b></i> of this project.
+
+                                <br><br><b>Summary:</b> 
+                                Provided a list of unstructured song titles and files, the program trims off unnecessary information such as "Official Music Video," brackets {()}, periods & commas, etc., typically found on Youtube. It then opens a search engine in the background, navigate the hidden UI by webscraping through the HTML code, enter the processed titles as search data, and append the appropriate lyrics, album covers, and artist names onto the MP3 file's metadata. Each process was carefully embedded onto the application with each button and page to ensure a smooth user experience.
+                                
+                                <br><br><b>Tools:</b>
+                                Python, PyQt5 <i>(app development + GUI toolkit library)</i>, selenium <i>(browser automation  library)</i>, pillow <i>(image processing library)</i>, mutagen <i>(audio metadata library)</i>.
+                                </p>
+								<footer>
+									<ul class="actions">
+										<li><a href="https://github.com/Talonee/Re-Muse" class="button large" target="_blank">Github Link</a></li>
+									</ul>
+									<ul class="stats">
+										<li><a href="javascript:void(0)" class="icon solid fa-star">Favorite</a></li>
+									</ul>
+								</footer>
+							</article>
+
+                            <!-- Post -->
+							<article class="post" id="data">
+								<header>
+									<div class="title">
+										<h2><a>Data Manager</a></h2>
+										<p>Victor Valley College, Campus Police</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2020-02-24">February 2020</time>
+										<a class="author"><span class="name">Code</span><img src="images/pro.png" alt="" /></a>
+									</div>
+								</header>
+								<a class="image featured"><img src="images/mover.png" alt="" /></a>
+								<p>Fall 2019, I was hired to a data entry position at my community college. My responsibility was to read thousands of data points from a website-based server and manually write them onto Excel files. However, I got creative and decided to automate the process instead and, thus, created Data Manager from a series of scripts.
+                                
+                                <br><br><b>Summary:</b>
+                                In a website consisted of parking violation data, I used Python to scan and scrape useful data such as the citation's number, violation type, date, individual's name, individual's address, etc. The data then goes through various algorithms to be cleaned (i.e. addresses are searched on Google to clarify their validity, individuals' names are uniformly titlecased, null data are voided, etc.). Then, Excel files are carefully assembled with the appropriate categories and organized by the year of violation.
+                                
+                                <br><br><b>Tools:</b>
+                                Python, BeautifulSoup <i>(webscraping library)</i>, pandas <i>(data manipulation library)</i>.
+                                </p>
+								<footer>
+									<ul class="actions">
+										<li><a href="https://github.com/Talonee/Database-Manager" class="button large" target="_blank">Github Link</a></li>
+									</ul>
+								</footer>
+							</article>
+                        
+                            <!-- Post -->
+							<article class="post" id="food">
+								<header>
+									<div class="title">
+										<h2><a>Food Tracker</a></h2>
+										<p>Personal Project</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2019-12-25">December 2019</time>										
+                                        <a class="author"><span class="name">Code</span><img src="images/pro.png" alt="" /></a>
+									</div>
+								</header>
+								<a class="image featured"><img src="images/food.png" alt="" /></a>
+								<p>Curious to see what the power of barcodes can hold and worried about my dad's health, Food Tracker became my first-ever personal project and signifies my first time ever using Python; applied what I knew from programming with Java in college, I ventured out to a journey of research. 
+                                
+                                <br><br><b>Summary:</b>
+                                Food Scraper resizes, aligns, and desaturates an image of a barcode to scan for its unique ID numbers, typically found under the bars. The ID numbers are then searched using a website's API where the product's information is returned in JSON format. With the product's name in posession, another API request is made to the USDA Food and Nutrition Service for its nutrition values. The program then organizes these values into individual serving with an option to hypothesize multiple servings. There, the user can assess and observe how much calories, micronutrients, and macronutrients they're consuming with each meal.
+                                    
+                                <br><br><b>Tools:</b>
+                                Python, Pyzbar <i>(barcodes & QR codes library)</i>, pillow <i>(image processing library)</i>, API_KEY & urllib3 <i>(API request & processing library)</i>.
+                                </p>
+								<footer>
+									<ul class="actions">
+										<li><a href="https://github.com/Talonee/Food-Tracker" class="button large" target="_blank">Github Link</a></li>
+									</ul>
+								</footer>
+							</article>
+
+						<!-- Pagination -->
+							<ul class="actions pagination">
+								<li><a href="index-egr.html" class="button large previous">Previous Page</a></li>
+								<li><a href="index-art.html" class="button large next">Next Page</a></li>
+							</ul>
+
+					</div>
+
+				<!-- Sidebar -->
+					<section id="sidebar">
+
+						<!-- Intro -->
+							<section id="intro">
+								<a href="#" class="logo"><img src="images/logo.png" alt="" /></a>
+								<header>
+									<h2>Talon Pollard</h2>
+									<p>Portfolio of things
+<!--                                        <a href="http://html5up.net">HTML5 UP</a>-->
+                                    </p>
+								</header>
+							</section>
+
+                        <!-- Posts List -->
+							<section>
+								<ul class="posts">
+									<li>
+										<article>
+											<header>
+												<h3><a href="#remuse">Re-Muse</a></h3>
+												<time class="published" datetime="2020-08-24">August 2020</time>
+											</header>
+											<a href="#remuse" class="image"><img src="images/collage_logo.png" alt="" /></a>
+										</article>
+									</li>
+                                    <li>
+										<article>
+											<header>
+												<h3><a href="#data">Data Manager</a></h3>
+												<time class="published" datetime="2020-02-24">February 2020</time>
+											</header>
+											<a href="#data" class="image"><img src="images/mover_logo.png" alt="" /></a>
+										</article>
+									</li>
+                                    <li>
+										<article>
+											<header>
+												<h3><a href="#food">Food Tracker</a></h3>
+												<time class="published" datetime="2019-12-25">December 2019</time>
+											</header>
+											<a href="#food" class="image"><img src="images/food_logo.png" alt="" /></a>
+										</article>
+									</li>
+								</ul>
+							</section>
+                        
+                          
+                        
+						<!-- About -->
+							<section class="blurb">
+								<h2>About</h2>
+								<p>Hello! My name is Talon. 
+                                    <br>I'm currently an undergraduate student at California State Polytechnic University, Pomona, studying Computer Engineering. 
+                                    
+                                    <br><br> As with my jobs, my academic objective is to always strive for more knowledge and experiences; this portfolio is then a showcase of projects throughout my journey as I continue to dedicate myself to learning new skills. 
+                                    
+                                    <br><br>With interest in both engineering and art, I find myself exploring these aspects from both the design and application viewpoints when encountering challenges. As such, I hope to always carry a hollistic perspective & approach when working on the job.</p>
+								<ul class="actions">
+									<li><a href="Talon_Pham_Resume.pdf" class="button" target="_blank">Résumé</a></li>
+								</ul>                                
+								<ul class="icons">
+									<li><a target="_blank" href="https://github.com/Talonee" class="icon brands fa-github" ><span class="label">Github</span></a></li>
+									<li><a target="_blank" href="https://youtube.com/playlist?list=PLR4SnmZ0EGSJENrKfzLiQlexyIwqs8sH9" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
+									<li><a target="_blank" href="https://www.linkedin.com/in/talonee/" class="fab fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								</ul>
+							</section>
+                        
+						<!-- Mini Posts -->
+							<section class="blurb">
+                                
+								<h2>Favorite projects</h2>
+								<div class="mini-posts">
+
+									<!-- Mini Post -->
+										<article class="mini-post">
+											<header>
+												<h3><a href="index-egr.html">FPGA design with Verilog</a></h3>
+												<time class="published" datetime="2021-12-15">December 2021</time>
+												<a class="author"><img src="images/egr.png" alt="" /></a>
+											</header>
+											<a href="index-egr.html" class="image"><img src="images/fpga.png" alt="" /></a>
+										</article>
+
+									<!-- Mini Post -->
+										<article class="mini-post">
+											<header>
+												<h3><a href="index-pro.html">Re-muse</a></h3>
+												<time class="published" datetime="2020-08-19">August 2020</time>
+												<a class="author"><img src="images/pro.png" alt="" /></a>
+											</header>
+											<a href="index-pro.html" class="image"><img src="images/collage.png" alt="" /></a>
+										</article>
+
+									<!-- Mini Post -->
+										<article class="mini-post">
+											<header>
+												<h3><a href="index-art.html">Hoa Khoi Lien Truong</a></h3>
+												<time class="published" datetime="2015-10-18">October 18, 2015</time>
+												<a class="author"><img src="images/art.png" alt="" /></a>
+											</header>
+											<a href="index-art.html" class="image"><img src="images/hklt.png" alt="" /></a>
+										</article>
+
+									<!-- Mini Post -->
+										<article class="mini-post">
+											<header>
+												<h3><a href="index-mod.html">Coming soon...</a></h3>
+												<time class="published" datetime="2015-10-17">Null</time>
+												<a class="author"><img src="images/mod.png" alt="" /></a>
+											</header>
+											<a href="index-mod.html" class="image"><img src="images/roverpede.png" alt="" /></a>
+										</article>
+
+								</div>
+							</section>
+                        
+                                                
+                        <!-- Footer -->
+							<section id="footer">
+								<p class="copyright">Last modified: 4 Apr 2022.</p>
+							</section>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
